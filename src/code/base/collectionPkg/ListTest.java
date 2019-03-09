@@ -72,7 +72,7 @@ public class ListTest {
      * int cursor = 0;   //将要访问的元素的索引
      * int lastRet = -1;  //上一个访问元素的索引
      * int expectedModCount = modCount;//expectedModCount为预期修改值，初始化等于modCount（AbstractList类中的一个成员变量）
-     ，add，remove的操作会让AbstractList的modCount++，
+     ，ArrayList的add，remove，clear的操作会让AbstractList的modCount++，
      */
 
     public void testRemove4(){
