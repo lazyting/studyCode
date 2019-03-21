@@ -1,4 +1,4 @@
-package testPkg.lambdaTest;
+package code.newPoint.testPkg.lambdaTest;
 
 /**
  * Created by Lei on 2019/3/14.
