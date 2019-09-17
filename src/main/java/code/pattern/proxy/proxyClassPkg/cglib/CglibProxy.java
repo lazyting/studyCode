@@ -1,6 +1,6 @@
-package code.mode.proxy.proxyClassPkg.cglib;
+package code.pattern.proxy.proxyClassPkg.cglib;
 
-import code.mode.proxy.interfaceImplPgk.Dog;
+import code.pattern.proxy.interfaceImplPgk.Dog;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;

@@ -1,4 +1,4 @@
-package code.mode.proxy.interfacePgk;
+package code.pattern.proxy.interfacePgk;
 
 /**
  * Created by Lei on 2019/3/9.

@@ -1,7 +1,7 @@
-package code.mode.proxy.proxyClassPkg;
+package code.pattern.proxy.proxyClassPkg;
 
 
-import code.mode.proxy.interfacePgk.Animal;
+import code.pattern.proxy.interfacePgk.Animal;
 
 /**
  * 使用代理是对原类进行增强，实际上做事的还是原类

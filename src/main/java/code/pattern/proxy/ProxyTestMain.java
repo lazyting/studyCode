@@ -1,11 +1,11 @@
-package code.mode.proxy;
+package code.pattern.proxy;
 
 
-import code.mode.proxy.interfaceImplPgk.Dog;
-import code.mode.proxy.interfacePgk.Animal;
-import code.mode.proxy.proxyClassPkg.DogDynamicProxy;
-import code.mode.proxy.proxyClassPkg.DogStaticProxy;
-import code.mode.proxy.proxyClassPkg.cglib.CglibProxy;
+import code.pattern.proxy.interfaceImplPgk.Dog;
+import code.pattern.proxy.interfacePgk.Animal;
+import code.pattern.proxy.proxyClassPkg.DogDynamicProxy;
+import code.pattern.proxy.proxyClassPkg.DogStaticProxy;
+import code.pattern.proxy.proxyClassPkg.cglib.CglibProxy;
 
 /**
  * Created by Lei on 2019/3/9.

@@ -1,8 +1,8 @@
-package code.mode.proxy.proxyClassPkg;
+package code.pattern.proxy.proxyClassPkg;
 
 
-import code.mode.proxy.interfaceImplPgk.Dog;
-import code.mode.proxy.interfacePgk.Animal;
+import code.pattern.proxy.interfaceImplPgk.Dog;
+import code.pattern.proxy.interfacePgk.Animal;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

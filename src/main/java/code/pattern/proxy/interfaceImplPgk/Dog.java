@@ -1,7 +1,7 @@
-package code.mode.proxy.interfaceImplPgk;
+package code.pattern.proxy.interfaceImplPgk;
 
 
-import code.mode.proxy.interfacePgk.Animal;
+import code.pattern.proxy.interfacePgk.Animal;
 
 /**
  * Created by Lei on 2019/3/9.
