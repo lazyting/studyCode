@@ -7,6 +7,7 @@ import code.pattern.filter.model.Person;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -34,7 +35,17 @@ public class Main {
             System.out.println(x);
         });
         Map<Integer, Person> people1 = personList.stream().filter((p -> p.getAge() > 22)).collect(Collectors.toMap(k -> k.getAge(), v -> v));
-
+        Map<Integer, Person> people2 = personList.stream().filter((p -> p.getAge() > 22)).collect(Collectors.toMap(new Function<Person, Integer>() {
+            @Override
+            public Integer apply(Person o) {
+                return o.getAge();
+            }
+        }, new Function<Person, Person>() {
+            @Override
+            public Person apply(Person person) {
+                return person;
+            }
+        }));
         /**
          * ¹ýÂËÆ÷Ä£Ê½
          */
