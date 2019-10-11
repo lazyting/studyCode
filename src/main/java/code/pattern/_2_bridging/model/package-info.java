@@ -1,0 +1,1 @@
+package code.pattern._2_bridging.model;

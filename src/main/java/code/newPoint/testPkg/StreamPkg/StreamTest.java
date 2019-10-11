@@ -34,7 +34,7 @@ public class StreamTest {
 
     /**
      * Intermediate（中间操作）:中间操作是指对流中数据元素做出相应转换或操作后依然返回为一个流Stream，仍然可以供下一次流操作使用。
-     * 常用的有：map (mapToInt, flatMap 等)、 filter、 distinct、 sorted、 peek、 limit、 skip。
+     * 常用的有：map (mapToInt, flatMap 等)、 _2_filter、 distinct、 sorted、 peek、 limit、 skip。
      * Termial（结束操作）：是指最终对Stream做出聚合操作，输出结果。
      *
      * @param stream
